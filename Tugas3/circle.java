@@ -4,8 +4,8 @@ class  circle {
 	//radius->double
 	//color->string
 
-		double radius;
-		String color;
+		private double radius;
+		private String color;
 
 	//konstruktor untuk class circle
 		//karena nama kelas sama dengan nama function
@@ -28,6 +28,13 @@ class  circle {
 
 		public String getColor(){
 			return color;
+		}
+		public double setRAdius(double r){
+			return radius = r;
+		}
+
+		public String setColor(String c){
+			return color = c;
 		}
 
 		public double getArea(){

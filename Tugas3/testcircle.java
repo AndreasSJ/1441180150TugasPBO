@@ -1,13 +1,14 @@
-class testcircle {
+class TestCircle {
 	public static void main(String[] args) {
-		//instasiasi objek
-		//namaClass nama objek=nama konstruktor
-		circle cahya = new circle();
-		circle ardi = new circle(30);
-		circle akbar = new circle(30,"abanggalau");
+		
+	
+	circle cahya = new circle();
+	circle ardi = new circle(30);
+	circle bolank = new circle(96,"green");
 
-		System.out.println("Radius = " +cahya.radius +"color=" +cahya.color+"luas="+cahya.getArea());
-		System.out.println("Radius = " +ardi.radius +"color" +ardi.color+"luas="+ardi.getArea());
-		System.out.println("Radius = " +akbar.radius +"color" +akbar.color+"luas="+akbar.getArea());
+	System.out.println("Radius = "+ cahya.getRadius()+" Color = "+ cahya.getColor() + " Luasnya = " + cahya.getArea());
+	System.out.println("Radius = "+ ardi.getRadius()+" Color = "+ ardi.getColor() + " Luasnya = " + ardi.getArea());
+	System.out.println("Radius = "+ bolank.getRadius()+" Color = "+ bolank.getColor() + " Luasnya = " + bolank.getArea());
 	}
+
 }
