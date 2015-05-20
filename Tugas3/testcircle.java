@@ -8,7 +8,7 @@ class TestCircle {
 
 	System.out.println("Radius = "+ cahya.getRadius()+" Color = "+ cahya.getColor() + " Luasnya = " + cahya.getArea());
 	System.out.println("Radius = "+ ardi.getRadius()+" Color = "+ ardi.getColor() + " Luasnya = " + ardi.getArea());
-	System.out.println("Radius = "+ bolank.getRadius()+" Color = "+ bolank.getColor() + " Luasnya = " + bolank.getArea());
+	System.out.println("Radius = "+ bolank.getRadius()+" Color = "+ bolank.setColor() + " Luasnya = " + bolank.getArea());
 	}
 
 }
